@@ -1,18 +1,28 @@
 body {
   background: #131820;
   font-family: 'Poiret One', cursive;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
 }
 
 .logo-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 
 .logo {
-
+  width: 300px;
 }
 
 .title {
   text-align: center;
+  color: #c3a58b;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
