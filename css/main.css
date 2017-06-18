@@ -22,7 +22,7 @@ nav {
 
 .nav-item {
   margin: 14px;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
 }
 
@@ -47,7 +47,7 @@ nav {
   text-align: center;
   color: #c3a58b;
   position: absolute;
-  font-size: 20px;
+  font-size: 24px;
   top: 20%;
 }
 
