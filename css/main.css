@@ -62,19 +62,8 @@ nav {
   position: absolute;
   font-size: 24px;
   top: 20%;
-}
-
-.title-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media (max-width: 700px), (max-height: 700px) {
@@ -87,10 +76,10 @@ nav {
         -ms-flex-align: end;
             align-items: flex-end;
   }
-  .title-container {
-    position: absolute;
-    width: 150px;
-    display: block;
+  .title {
+    top: 10px;
+    left: 10px;
+    transform: none;
   }
   .nav-item {
     margin: 10px;
