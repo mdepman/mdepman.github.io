@@ -1,0 +1,18 @@
+body {
+  background: #131820;
+  font-family: 'Poiret One', cursive;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+
+}
+
+.title {
+  text-align: center;
+}
